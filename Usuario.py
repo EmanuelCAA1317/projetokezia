@@ -47,7 +47,7 @@ class Usuario:
     def getPeso(self):
         return self.peso
 
-    def setIdade(self, peso):
+    def setPeso(self, peso):
         self.peso = peso
 
     def geraQuantitativoDieta(self, sexo, idade, peso, altura, objetivo, nivelAtividade):
